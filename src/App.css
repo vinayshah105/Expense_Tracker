@@ -41,3 +41,11 @@
     transform: rotate(360deg);
   }
 }
+
+.MainHead{
+  text-align: center;
+  font-family: fantasy;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  ;
+}
