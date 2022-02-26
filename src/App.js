@@ -12,7 +12,7 @@ function App() {
   ]
   return ( 
     <div>
-      <h2 className='MainHead'>Expense Tracker</h2>
+      <h2 className='MainHead'>ExPense Tracker</h2>
       <Main items={expense} />
     </div>
   );
