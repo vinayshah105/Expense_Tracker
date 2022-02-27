@@ -1,6 +1,7 @@
 import React from 'react';
 import Main from './component/2Body/1Main';
 import './App.css';
+import NewExpense from './component/1Header/NewExpense';
 
 function App() {
    
@@ -10,9 +11,14 @@ function App() {
     {id:3, title:'Fashion', amount:200, date: new Date('Aug-12-2020')},
     {id:4, title:'Gas', amount:125.80, date: new Date('jun-25-2020')}
   ]
+
+  const AddSaveNewExpense = (expense) => {
+    console.log(expense);
+  }
   return ( 
     <div>
       <h2 className='MainHead'>ExPense Tracker</h2>
+      <NewExpense onSaveNewExpense = {AddSaveNewExpense} />
       <Main items={expense} />
     </div>
   );
