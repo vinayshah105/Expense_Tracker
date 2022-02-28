@@ -8,7 +8,7 @@ const ExpenseList = (props) => {
             <div className='expense-item'>
                 <ExpenseDate date = {props.Date} />
                 <div className='expense-item-product'>
-                   <h2 className='expense-item'>{props.title}</h2>
+                   <h2 className='expense-item'>{props.Title}</h2>
                    <div className='expense-item-price'>${props.Amount}</div>
                 </div>
             </div>
